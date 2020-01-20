@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="836ea205-34c6-40b3-ad16-9bfe739c0422" name="Default" comment="" />
+    <list default="true" id="836ea205-34c6-40b3-ad16-9bfe739c0422" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/02-Locators/chainLocators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Locators/conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Diplomado Software Testing\MODULO 3\Protractor\Demo001\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1WYJjPIOOE5MByqLqB32PQNLUg6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -22,7 +38,7 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RunManager">
-    <configuration name="ProtractorTestRunner" type="NodeJSConfigurationType" application-parameters="01Basic\conf2.js" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/protractor/built/cli.js" working-dir="$PROJECT_DIR$">
+    <configuration name="ProtractorTestRunner" type="NodeJSConfigurationType" application-parameters="02-Locators\conf.js" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/protractor/built/cli.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" application-parameters="01Basic\conf.js" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/protractor/built/cli.js">
@@ -53,7 +69,7 @@
       <updated>1579233566589</updated>
       <workItem from="1579233581434" duration="1505000" />
       <workItem from="1579315951693" duration="1311000" />
-      <workItem from="1579320751502" duration="3569000" />
+      <workItem from="1579320751502" duration="9839000" />
     </task>
     <servers />
   </component>
@@ -61,26 +77,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579323568626">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579492138983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579323568626" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1579324069312">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579492138983" />
+    <state x="430" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579488781378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579324069312" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1579324069312">
+    <state x="430" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1579488781378" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1579492494280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579324069312" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1579324069311">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579492494280" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1579492494280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579324069311" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1579324069312">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579492494280" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1579492494280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579324069312" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579492494280" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1579492494280">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579492494280" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1579323027554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
