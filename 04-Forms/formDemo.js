@@ -16,4 +16,17 @@ describe('Forms Angular Demo', function () {
             })
         })
     });
+
+    it('Should display message for the name field, negative test case', function () {
+
+        browser.get('https://qaclickacademy.github.io/protocommerce/');
+
+        var name = element(by.name("name")).sendKeys("J");
+        name.sendKeys(protractor.Key.TAB);
+        element(by.css("div[class*='alert alert-danger']")).getText().then((text)=>{
+                console.log(text);
+                expect(text).toEqual("Name should be at least 2 characters");
+        })
+
+    });
 });
